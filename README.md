@@ -1,33 +1,35 @@
-# Basic Calculator (Java)
+# Login System (Java)
 
 ## 📌 Description
-A console-based calculator that performs basic arithmetic operations using user input. This project focuses on core Java fundamentals such as control flow, switch expressions, and input validation.
+A console-based login system that validates user credentials with a limited number of attempts. The program locks the user out after three failed tries, demonstrating input validation and basic authentication logic.
 
 ## 🚀 Features
-- Performs addition, subtraction, multiplication, division, and exponentiation
-- Prevents division by zero
-- Validates operator input to avoid invalid calculations
-- Uses modern switch expressions for cleaner logic
+- Username and password validation
+- Case-insensitive username comparison
+- Limits login attempts to prevent unauthorized access
+- Displays account lock message after failed attempts
+- Provides success message upon correct login
 
 ## 🛠️ Built With
 - Java
 - Scanner (user input)
-- Math.pow() (exponentiation)
 
 ## ▶️ How to Run
-1. Clone the repository
-2. Open the project in any Java IDE (IntelliJ, Eclipse, etc.)
-3. Run `Main.java`
-4. Follow the console prompts
+1. Clone the repository  
+2. Open in any Java IDE (IntelliJ, Eclipse, etc.)  
+3. Run `Main.java`  
+4. Enter the correct username and password when prompted  
 
 ## 📚 What I Learned
-- Implementing control flow using switch expressions
-- Handling and validating user input
-- Preventing runtime errors (e.g., division by zero)
-- Structuring logic using methods and boolean flags
+- Implementing input validation for user credentials
+- Using loops to limit login attempts
+- Controlling program flow with conditions and early returns
+- Comparing strings with and without case sensitivity
+- Structuring logic for real-world scenarios (authentication systems)
 
 ## 🔮 Future Improvements
-- Add a loop for continuous calculations
-- Expand functionality (square root, modulus, etc.)
-- Create a GUI version using JavaFX or Swing
-- Improve input validation for non-numeric values
+- Hide password input for better security
+- Store credentials externally (file or database)
+- Hash passwords instead of storing them in plain text
+- Add user registration functionality
+- Implement a GUI or web-based login interface
